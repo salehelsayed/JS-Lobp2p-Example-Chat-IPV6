@@ -23,7 +23,9 @@ async function run() {
 
   // Choose either IPv4 or IPv6 localhost address
   // For IPv6 (replace with actual address and peer ID)
-  const listenerMultiaddrString = '/ip6/fe80::880:2dbe:fc09:928b/tcp/10333/p2p/12D3KooWC8YUtNoae6ZM2my5Sy1SzuwMdRD8o9R8HmtYxZKz3xJ4'
+  // const listenerMultiaddrString = '/ip6/fe80::880:2dbe:fc09:928b/tcp/10333/p2p/12D3KooWC8YUtNoae6ZM2my5Sy1SzuwMdRD8o9R8HmtYxZKz3xJ4'
+  //const listenerMultiaddrString = '/ip6/2a02:8070:8889:4fc0:d907:b585:54d0:d8b7/tcp/10333/p2p/12D3KooWJnMuiewE5XBNWYgzb25DniEJxLC5hkv4uYTrrH3d19qk'
+  const listenerMultiaddrString = '/ip6/2a02:8070:8889:4fc0:d907:b585:54d0:d8b7/tcp/10333/p2p/12D3KooWDNpYJDcNZqo8fvpzwgpj5S2sGiZuMYKavNSG94qfKy8m'
 
   // Convert the string to a multiaddr object
   const listenerMultiaddr = multiaddr(listenerMultiaddrString)
